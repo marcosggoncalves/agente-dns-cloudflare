@@ -47,7 +47,7 @@ func getDNSRecordID(recordName string) (string, error) {
 		}
 	}
 
-	return "", fmt.Errorf("record not found")
+	return "", fmt.Errorf(Message.FALHAR_OBTER_RECORD_ID)
 }
 
 func UpdatedDNS(ip string) error {

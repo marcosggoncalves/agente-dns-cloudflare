@@ -1,4 +1,4 @@
-package Schema
+package schema
 
 type DNSResponse struct {
 	Success bool       `json:"success"`

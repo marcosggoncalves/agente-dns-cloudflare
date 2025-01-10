@@ -1,4 +1,4 @@
-package Ip
+package ip
 
 import (
 	"io/ioutil"

@@ -1,4 +1,4 @@
-package Schema
+package schema
 
 type DNSRequest struct {
 	Content   string   `json:"content"`

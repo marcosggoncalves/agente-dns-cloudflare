@@ -1,4 +1,4 @@
-package Debug
+package debug
 
 import (
 	Message "dnspax/pkg/message"
