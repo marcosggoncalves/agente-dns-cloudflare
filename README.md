@@ -1,6 +1,6 @@
 # Agente DNS Cloudflare
 
-Este é uma aplicação em Go que atualiza automaticamente o registro DNS no Cloudflare, apontando para o IP público atual da máquina onde o programa está sendo executado.
+Aplicação para atualizar automaticamente o registro DNS no Cloudflare, apontando para o IP público atual da máquina onde o programa está sendo executado.
 
 ## Funcionalidades
 
