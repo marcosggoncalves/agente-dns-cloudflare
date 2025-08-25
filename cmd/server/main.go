@@ -1,7 +1,7 @@
 package main
 
 import (
-	Methods "dnspax/internal/methods"
+	Handler "dnspax/internal/handlers"
 	Ip "dnspax/pkg/ip"
 	Message "dnspax/pkg/message"
 	"fmt"
@@ -24,7 +24,7 @@ func main() {
 			return
 		}
 
-		err = Methods.UpdatedDNS(ip)
+		err = Handler.UpdatedDNS(ip)
 		if err != nil {
 			fmt.Printf(Message.FALHA_ATUALIZACAO_DNS, err)
 		}

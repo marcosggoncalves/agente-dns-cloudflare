@@ -1,4 +1,4 @@
-package Methods
+package Handler
 
 import (
 	"bytes"
